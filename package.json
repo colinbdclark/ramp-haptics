@@ -1,0 +1,7 @@
+{
+    "name": "ramp-haptics",
+    "version": "1.0.0",
+    "dependencies": {
+        "flocking": "3.0.1"
+    }
+}

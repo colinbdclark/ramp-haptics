@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ramp Haptics</title>
+    <style>
+        body {
+            background-color: black;
+            color: lightgrey;
+            padding: 1rem;
+        }
+    </style>
+    <script src="node_modules/flocking/dist/flocking-all.js"></script>
+    <script src="node_modules/flocking/src/ui/play-button/js/play-button.js"></script>
+    <script src="ramp-haptics.js"></script>
+</head>
+<body>
+    <h1>Ramp Haptics</h1>
+    <button id="play">Play</button>
+    <script>
+        flock.init({
+            chans: 16,
+            numBuses: 128,
+            numInputBuses: 128,
+            bufferSize: 1024
+        });
+
+        window.rampHaptics = kl.rampHaptics();
+    </script>
+</body>
