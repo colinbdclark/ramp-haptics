@@ -18,7 +18,7 @@ fluid.defaults("kl.rampHaptics.synth", {
         // Channel one
         {
             ugen: "flock.ugen.out",
-            bus: 0,
+            bus: 2,
             expand: 1,
             sources: [
                 {
@@ -44,7 +44,7 @@ fluid.defaults("kl.rampHaptics.synth", {
         // Channel two
         {
             ugen: "flock.ugen.out",
-            bus: 1,
+            bus: 3,
             expand: 1,
             sources: [
                 {
@@ -70,7 +70,7 @@ fluid.defaults("kl.rampHaptics.synth", {
         // Channel three
         {
             ugen: "flock.ugen.out",
-            bus: 2,
+            bus: 4,
             expand: 1,
             sources: [
                 {
@@ -96,7 +96,7 @@ fluid.defaults("kl.rampHaptics.synth", {
         // Channel four
         {
             ugen: "flock.ugen.out",
-            bus: 3,
+            bus: 5,
             expand: 1,
             sources: [
                 {
@@ -122,7 +122,7 @@ fluid.defaults("kl.rampHaptics.synth", {
         // Channel five
         {
             ugen: "flock.ugen.out",
-            bus: 4,
+            bus: 6,
             expand: 1,
             sources: [
                 {
@@ -149,7 +149,7 @@ fluid.defaults("kl.rampHaptics.synth", {
         // 53.5
         {
             ugen: "flock.ugen.out",
-            bus: 5,
+            bus: 7,
             expand: 1,
             sources: [
                 {
